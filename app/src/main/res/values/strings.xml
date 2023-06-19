@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">THWiki CD Search API</string>
+    <string name="spinner_item_title">Item Count</string>
+    <string name="available_ogmusic_title">Possible original music</string>
+    <string name="available_circle_title">Possible circle</string>
+    <string name="query_result_empty">Query result is empty</string>
+    <string name="input_ogmusic_hint">Enter the original song to search for</string>
+    <string name="input_circle_hint">Enter the circle name to search for</string>
+    <string name="item_count_text">Display <xliff:g id="disp">%s</xliff:g> items, total <xliff:g id="tota">%s</xliff:g> items.</string>
+    <string name="page_count_text">Page <xliff:g id="disp">%s</xliff:g> of <xliff:g id="tota">%s</xliff:g></string>
+    <string name="snack_input_empty">Search text is empty !</string>
+    <string name="search_btn">Search</string>
+    <string name="priv_btn">Priv</string>
+    <string name="next_btn">Next</string>
+    <string name="research_title">Warning!</string>
+    <string name="research_msg">You changed the number of displays after trying to search. Do you want to continue? \nClicking Continue will restart the search.</string>
+    <string name="about_app">About app</string>
+    <string name="about_view_legal">Privacy policy</string>
+    <string name="legal_text" translatable="false">就像刚启动 App 时你所看到的弹窗，虽然只接入了 腾讯 Bugly 这一个错误日志采集引擎，但是本着对用户负责的原则我还是将其写了出来。本应用除了从 THBWiki 获取数据以外只有 腾讯 Bugly 进行错误日志的采集和上传。对于错误日志所采集到的数据，我们已经尽可能的将其限定在本应用的范围。具体的采集还得看第三方服务，我无法干涉。当然如果你从一开始就没有选择采集，那应该就不会进行采集日志的操作了吧（？\n\n当然，具体的选择权在你，我只是本着国内App开发的政策写下了这段文字。\n\n免责声明：该App与 THBWiki 没有直接关系，App完全由本人开发，本App仅调用了 THBWiki 的WebAPI接口。一切的信息内容版权由 THBWiki 所有。\n\nGitHub：Yuyuko1024\nB站/酷安：咕灵谷灵咕\n\n2023/04/12</string>
+    <string name="start_perm_dialog_title">User permissions policy</string>
+    <string name="start_perm_dialog_msg">The application requires the following permissions: \n\n network communication permissions \n access to network status permissions \n access to WiFi status permissions \n\n These permissions are used to access information from the network, as well as to obtain, store and upload error logs for the log collection service. We do not capture, store, or upload the information we obtain. All such information obtained by the Third Party Service through the Application will be used by the Third Party Service.\n\nYou can either click "OK" to enable log capture to help me debug better, or click "Cancel" to disable it. Disabling the error log collection function does not affect App usage.\n\nDisclaimer: This App has no direct relationship with THBWiki. The App is completely developed by me. This App only invokes THBWiki WebAPI interface. The copyright of all information content is owned by THBWiki.</string>
+    <string name="item_menu_copy">Copy…</string>
+    <string name="crash_label">Oops !</string>
+    <string name="crash_tips_text">Oops! The App is having some problems! You can try to use the following method:\n \n  - Click the button below to exit or restart the app\n  - Delete this app data\n  - Uninstall and reinstall this app\n  - Wait for update</string>
+    <string name="crash_reason">Crash reason: <xliff:g id="reason_text">%s</xliff:g></string>
+    <string name="crash_btn_exit">Exit</string>
+    <string name="crash_btn_restart">Restart</string>
+    <string name="submenu_copy_album_link">Album link</string>
+    <string name="submenu_copy_cover_link">Cover link</string>
+    <string name="toast_copy_success">Copied to clipboard: </string>
+    <string name="item_str_circle">Production club：<xliff:g id="circle">%s</xliff:g></string>
+    <string name="item_str_artists">Artists：<xliff:g id="artists">%s</xliff:g></string>
+    <string name="item_str_album">Album：<xliff:g id="album">%s</xliff:g></string>
+    <string name="item_str_ogmusic">Original Music：<xliff:g id="ogmusic">%s</xliff:g></string>
+    <string name="item_str_ogwork">Source of original music：<xliff:g id="ogwork">%s</xliff:g></string>
+    <string name="share_intent_label">Search from original music</string>
+    <string name="fab_go_top">Go top</string>
+</resources>
